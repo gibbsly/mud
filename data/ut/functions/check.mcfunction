@@ -1,1 +1,0 @@
-$execute if score $(uuid) ut.exist matches 1 run data modify storage ut:main all_entities append from storage ut:temp entity

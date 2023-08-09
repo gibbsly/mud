@@ -1,1 +1,0 @@
-scoreboard objectives add ut.exist dummy
