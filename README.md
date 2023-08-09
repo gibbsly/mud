@@ -1,6 +1,6 @@
 # Macro UUID Directory
 
-This is a utility that allows you to run commands directly on entities based on UUID
+This is a utility that allows you to run commands directly on entities based on UUID for versions 23w31a+
 
 ## Use
 
