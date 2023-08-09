@@ -6,9 +6,7 @@ data remove storage mud:main tick[-1]
 execute if data storage mud:temp entity.uuid run function mud:__internal/tick_all
 
 #checking list
-data modify storage mud:temp entity set from storage mud:main tick_entries[-1]
-data remove storage mud:main tick_entries[-1]
-function mud:__internal/check with storage mud:temp entity
+execute if data storage mud:main all_entities[0] run function mud:__internal/death_check
 
 #iterating fake gametime
 scoreboard players add gametime mud.time 1
