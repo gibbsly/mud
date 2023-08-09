@@ -1,1 +1,0 @@
-$execute if score $(uuid) mud.exist matches 1 run data modify storage mud:main all_entities prepend from storage mud:temp entity
