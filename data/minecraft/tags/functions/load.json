@@ -1,6 +1,6 @@
 {
 	"values": [
-		"mud:load",
+		"mud:__internal/load",
 		"gu:load"
 	]
 }
